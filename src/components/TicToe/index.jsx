@@ -9,10 +9,10 @@ export default class extends Component{
         clickNumber: [0,0,0,0,0,0,0,0,0],
       }
   
-      this.checkWinner = this.checkWinner.bind(this);
+      this.addOneNumber = this.addOneNumber.bind(this);
     }
   
-    checkWinner(){
+    addOneNumber(){
         this.setState((state)=>{
             
             const newlist = state.clickNumber.map(item=>item+1)
@@ -33,7 +33,7 @@ export default class extends Component{
                 ))}
             </ul>
            
-            <button onClick={this.checkWinner}>+1 for each item</button>
+            <button onClick={this.addOneNumber}>+1 for each item</button>
         </div>
         )
     }
