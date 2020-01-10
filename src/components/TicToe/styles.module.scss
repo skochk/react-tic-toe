@@ -1,0 +1,11 @@
+.row{
+ display: flex;
+ justify-content: space-between;   
+}
+.box{
+    background-color: yellow;
+    border: 1px solid red;
+    display: grid;
+    width: 92px;
+    grid-template-columns: 30px 30px 30px;
+}

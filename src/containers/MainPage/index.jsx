@@ -7,8 +7,10 @@ export default function(){
   return(
     <>
       <TicToe />
+  
+
       {/* <Articles /> */}
-      <SomeComponent />
+      {/* <SomeComponent /> */}
     </>
   )
 }
